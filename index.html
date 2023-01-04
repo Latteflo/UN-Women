@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UN Women</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&family=Cantora+One&family=Comfortaa:wght@400;700&family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-warning">
+        <div class="container-fluid">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/376/original/unwomenlogo-removebg-preview.png?1672840889"
+            alt="UN Women logo"
+            class="logo navbar-brand"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse menubar"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">
+                  <span class="thumb">
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <span class="menuitem">Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#impact">
+                  <span class="thumb">
+                    <i class="fas fa-heart"></i>
+                  </span>
+                  <span class="menuitem">Impact</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#history">
+                  <span class="thumb">
+                    <i class="fas fa-book"></i>
+                  </span>
+                  <span class="menuitem">History</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#involved">
+                  <span class="thumb">
+                    <i class="fas fa-user-plus"></i>
+                  </span>
+                  <span class="menuitem">Get Involved</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://donate.unwomen.org/en"
+                  class="btn btn-primary btn-lg donate"
+                  >Donate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 600"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop
+              offset="5%"
+              stop-color="#0693e3"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #0576b6"
+            ></stop>
+            <stop
+              offset="95%"
+              stop-color="#8ed1fc"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #034a78"
+            ></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,600 C 0,600 0,150 0,150 C 106.79425837320574,145.46411483253587 213.58851674641147,140.92822966507177 310,145 C 406.41148325358853,149.07177033492823 492.4401913875598,161.7511961722488 594,163 C 695.5598086124402,164.2488038277512 812.6507177033493,154.06698564593302 900,146 C 987.3492822966507,137.93301435406698 1044.956937799043,131.98086124401914 1130,133 C 1215.043062200957,134.01913875598086 1327.5215311004786,142.00956937799043 1440,150 C 1440,150 1440,600 1440,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="0.4"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+          data-darkreader-inline-stroke=""
+          style="
+            --darkreader-inline-stroke: none;
+            --darkreader-inline-fill: #0576b6;
+          "
+          transform="rotate(-180 720 300)"
+        ></path>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop
+              offset="5%"
+              stop-color="#0693e3"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #0576b6"
+            ></stop>
+            <stop
+              offset="95%"
+              stop-color="#8ed1fc"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #034a78"
+            ></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,600 C 0,600 0,300 0,300 C 89.61722488038276,288.0382775119617 179.23444976076553,276.07655502392345 265,289 C 350.76555023923447,301.92344497607655 432.67942583732054,339.73205741626793 535,342 C 637.3205741626795,344.26794258373207 760.0478468899522,310.99521531100476 868,286 C 975.9521531100478,261.00478468899524 1069.1291866028707,244.2870813397129 1162,248 C 1254.8708133971293,251.7129186602871 1347.4354066985647,275.85645933014354 1440,300 C 1440,300 1440,600 1440,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="0.53"
+          class="transition-all duration-300 ease-in-out delay-150 path-1"
+          data-darkreader-inline-stroke=""
+          style="
+            --darkreader-inline-stroke: none;
+            --darkreader-inline-fill: #0576b6;
+          "
+          transform="rotate(-180 720 300)"
+        ></path>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop
+              offset="5%"
+              stop-color="#0693e3"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #0576b6"
+            ></stop>
+            <stop
+              offset="95%"
+              stop-color="#8ed1fc"
+              data-darkreader-inline-stopcolor=""
+              style="--darkreader-inline-stopcolor: #034a78"
+            ></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,600 C 0,600 0,450 0,450 C 76.19138755980862,467.33014354066984 152.38277511961724,484.66028708133973 263,473 C 373.61722488038276,461.33971291866027 518.6602870813397,420.688995215311 613,413 C 707.3397129186603,405.311004784689 750.976076555024,430.58373205741634 833,435 C 915.023923444976,439.41626794258366 1035.4354066985645,422.9760765550239 1143,422 C 1250.5645933014355,421.0239234449761 1345.2822966507179,435.5119617224881 1440,450 C 1440,450 1440,600 1440,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-2"
+          transform="rotate(-180 720 300)"
+          data-darkreader-inline-stroke=""
+          style="--darkreader-inline-stroke: none"
+        ></path>
+      </svg>
+      <section id="hero" class="hero">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/377/original/girl_side_left.png?1672840944"
+          alt="Hero image"
+          class="img-fluid right"
+        />
+        <div class="hero-text">
+          <h1>UN Women</h1>
+          <p>
+            We are the global champion for
+            <span class="highlight">gender equality</span>.
+          </p>
+          <a href="#history" class="btn btn-primary btn-lg main">Learn More</a>
+        </div>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/378/original/girl_side_right.png?1672841044"
+          alt="Hero image"
+          class="img-fluid"
+        />
+      </section>
+      <section id="home" class="section home">
+        <span class="shape-home"></span>
+        <span class="shape-home"></span>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="text-center mb-4">
+              We focus on issues that unlock progress on gender equality.
+            </h2>
+            <p>
+              UN Women is a global champion for women and girls. We work to
+              ensure that they have the same rights and opportunities as men and
+              boys, and that they are able to fully participate in all spheres
+              of life. We strive to eliminate all forms of discrimination
+              against women and girls, and work to empower them to take control
+              of their own lives and contribute to the development of their
+              communities and countries.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="impact" class="section impact">
+        <div class="container-fluid">
+          <h2>Our Impact</h2>
+          <p>
+            UN Women has made <span class="highlight-p"> progress</span> in
+            advancing <span class="highlight-p">gender equality</span> and the
+            <span class="highlight-p">empowerment of women and girls </span
+            >around the world.
+          </p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <span class="shape"></span>
+                  <a
+                    href="https://www.unwomen.org/en/what-we-do/economic-empowerment"
+                  >
+                    <img
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/380/original/1-EconomicEmpowerment_675x350.jpg?1672841179"
+                      class="card-img-top"
+                      alt="UN Women logo"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Supporting Women's Economic Empowerment
+                      </h5>
+                      <p class="card-text">
+                        UN Women supports programs and initiatives that help
+                        women gain access to economic opportunities, including
+                        education and training, financial services, and property
+                        rights.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <span class="shape"></span>
+
+                  <a
+                    href="https://www.unwomen.org/en/what-we-do/ending-violence-against-women"
+                  >
+                    <img
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/381/original/ending_violence_against_women.jpg?1672841213"
+                      class="card-img-top"
+                      alt="UN Women logo"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Combating Violence Against Women
+                      </h5>
+                      <p class="card-text">
+                        UN Women works to prevent and respond to violence
+                        against women and girls, including through the
+                        development of laws, policies, and programs that support
+                        survivors and hold perpetrators accountable.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card">
+                  <span class="shape"></span>
+                  <a
+                    href="https://www.unwomen.org/en/digital-library/publications/2019/06/promoting-gender-equality-in-srmncah"
+                  >
+                    <img
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/389/original/COFACE-Family-Photobank-4.png?1672842587"
+                      class="card-img-top"
+                      alt="UN Women logo"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Promoting Gender Equality</h5>
+                      <p class="card-text">
+                        UN Women promotes gender equality and the empowerment of
+                        women by advocating for the adoption and the
+                        implementation of international agreements that support
+                        these goals.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <span class="shape"></span>
+                  <a
+                    href="https://www.unwomen.org/en/what-we-do/leadership-and-political-participation"
+                  >
+                    <img
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/382/original/02_WhatWeDo_LeadershipAndPoliticalParticipation_675x350.jpg?1672841256"
+                      class="card-img-top"
+                      alt="UN Women logo"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Advancing Women's Political Participation
+                      </h5>
+                      <p class="card-text">
+                        UN Women supports efforts to increase women's
+                        participation in political and public life, including
+                        through initiatives to promote women's leadership and
+                        representation in decision-making roles.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="field field--name-field-video field--type-video-embed-field field--label-hidden field__item"
+          >
+            <iframe
+              width="854"
+              height="480"
+              frameborder="0"
+              allowfullscreen="allowfullscreen"
+              src="https://www.youtube.com/embed/eOAl9cS_FG0?autoplay=0&amp;start=0&amp;rel=0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="history" class="history">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2>A Brief History</h2>
+            <p>
+              UN Women is the United Nations agency for gender equality and the
+              empowerment of women. It was established in 2011 through the
+              merger of four previously existing UN agencies, and has a mandate
+              to focus specifically on these issues. UN Women works to promote
+              gender equality and the empowerment of women globally through
+              policy advocacy, research, and partnerships. Its key areas of
+              focus include ending violence against women and girls, increasing
+              women's participation in political and economic decision-making,
+              and promoting women's rights in the context of peace and security.
+              The organization also supports the implementation of the
+              Sustainable Development Goals (SDGs) in relation to gender
+              equality and women's empowerment.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/383/original/world_map.png?1672841977"
+              class="img-fluid rounded world-map"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="numbers">
+        <div class="container container-numbers mt-5">
+          <h2>Let's talk numbers</h2>
+          <div class="row mt-5">
+            <div class="col-sm-4">
+              <span class="output first">571,000</span>
+              <p>women and girls received lifesaving humanitarian support.</p>
+            </div>
+            <div class="col-sm-4">
+              <span class="output second">101,000</span>
+              <p>
+                women’s organizations supported to mitigate the impact of
+                COVID-19.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <span class="output third">98,700</span>
+              <p>
+                gender-based violence survivors accessed justice and recovery
+                services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="involved" class="section involved">
+        <div class="container">
+          <div class="container mt-5">
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-center">
+                <h2 class="mb-4">Get Involved with UN Women</h2>
+                <div class="d-flex flex-column align-items-center mt-4">
+                  <h2 class="mb-6">Donate</h2>
+                  <p>
+                    Make a financial contribution to fund our programs and
+                    initiatives.
+                  </p>
+                  <a
+                    href="https://donate.unwomen.org/en"
+                    class="btn donate-main btn-lg mr-3 mb-3"
+                    >Donate Now</a
+                  >
+                </div>
+                <div class="d-flex flex-column align-items-center mt-4">
+                  <h2 class="mb-6">Become a Volunteer</h2>
+                  <p>
+                    Play a vital role in our work by volunteering in your local
+                    community or internationally.
+                  </p>
+                  <a
+                    href="https://www.unwomen.org/en/get-involved"
+                    class="btn btn-primary btn-lg mr-3 mb-3"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Copyrights @ UN Women</h4>
+            <p>
+              This page is a contest entry project created by Simion Florentina
+              that is dedicated to the UN Women NGO. The creator does not hold
+              any rights to the images or information used on this page and they
+              are being used solely for the purpose of the contest entry
+              project.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>Phone: +1 646 781-4400</p>
+            <p>Email: info@unwomen.org</p>
+            <p>Address: 220 East 42nd Street New York, NY 10017</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Follow Us</h3>
+            <p class="socials">
+              <a
+                aria-label="Follow us on Facebook"
+                href="https://www.facebook.com/unwomen"
+                target="_blank"
+                title="Follow us on Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                aria-label="Follow us on Twitter"
+                href="https://www.twitter.com/UN_Women"
+                target="_blank"
+                title="Follow us on Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                aria-label="Follow us on LinkedIn"
+                href="https://www.linkedin.com/company/un-women"
+                target="_blank"
+                title="Follow us on LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                aria-label="Follow us on Flickr"
+                href="https://www.flickr.com/photos/unwomen"
+                target="_blank"
+                title="Follow us on Flickr"
+                ><i class="fab fa-flickr"></i
+              ></a>
+              <a
+                aria-label="Follow us on Snapchat"
+                href="https://www.snapchat.com/add/unwomen"
+                target="_blank"
+                title="Follow us on snapchat"
+                ><i class="fab fa-snapchat"></i
+              ></a>
+              <a
+                aria-label="Follow us on YouTube"
+                href="https://www.youtube.com/UNWomen"
+                target="_blank"
+                title="Follow us on YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                aria-label="Follow us on Instagram"
+                href="https://www.instagram.com/unwomen"
+                target="_blank"
+                title="Follow us on Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
